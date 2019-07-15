@@ -30,15 +30,16 @@ public class MovieFragment extends Fragment {
     public MovieFragment newInstance(ArrayList<Movie> movieArrayList) {
 
         MovieFragment movieFragment = new MovieFragment();
+
         Bundle bundle = new Bundle();
         bundle.putParcelableArrayList("movieArrayList", movieArrayList);
+
         movieFragment.setArguments(bundle);
 
         return movieFragment;
     }
 
     public MovieFragment() {
-        // Required empty public constructor
     }
 
 

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Katalog Film</string>
+    <string name="tab_tv_show">Acara TV</string>
+    <string name="tab_movie">Film</string>
+    <string name="search">Pencarian</string>
+    <string name="desc_image_cover">Gambar Sampul Film</string>
+    <string name="setting">Menu Pengaturan</string>
+    <string name="menu_profile">Menu Profil</string>
+    <string name="title_dummy">Venom (2018)</string>
+    <string name="release_dummy">29 September 2018</string>
+    <string name="rate_dummy">7/10</string>
+    <string name="genre_dummy">ACTION | FANTASY | ADVENTURE</string>
+    <string name="desc_dummy">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</string>
+
+    <array name="data_movie_image">
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_hunterkiller</item>
+        <item>@drawable/poster_marrypopins</item>
+        <item>@drawable/poster_the_rookie</item>
+        <item>@drawable/poster_baki</item>
+        <item>@drawable/poster_sabrina</item>
+        <item>@drawable/poster_station19</item>
+        <item>@drawable/poster_titans</item>
+        <item>@drawable/poster_resident</item>
+        <item>@drawable/poster_911</item>
+        <item>@drawable/poster_finalspace</item>
+        <item>@drawable/poster_tsubasa</item>
+        <item>@drawable/poster_tom</item>
+    </array>
+
+    <array name="data_movie_banner">
+        <item>@drawable/backdrop_a_star</item>
+        <item>@drawable/backdrop_aquaman</item>
+        <item>@drawable/backdrop_avengerinfinity</item>
+        <item>@drawable/backdrop_birdbox</item>
+        <item>@drawable/backdrop_bohemian</item>
+        <item>@drawable/backdrop_bumblebee</item>
+        <item>@drawable/backdrop_creed</item>
+        <item>@drawable/backdrop_deadpool</item>
+        <item>@drawable/backdrop_dragon</item>
+        <item>@drawable/backdrop_dragonball</item>
+        <item>@drawable/backdrop_glass</item>
+        <item>@drawable/backdrop_hunterkiller</item>
+        <item>@drawable/backdrop_marrypopins</item>
+        <item>@drawable/backdrop_the_rookie</item>
+        <item>@drawable/backdrop_baki</item>
+        <item>@drawable/backdrop_sabrina</item>
+        <item>@drawable/backdrop_station19</item>
+        <item>@drawable/backdrop_titans</item>
+        <item>@drawable/backdrop_resident</item>
+        <item>@drawable/backdrop_911</item>
+        <item>@drawable/backdrop_finalspace</item>
+        <item>@drawable/backdrop_tsubasa</item>
+        <item>@drawable/backdrop_tom</item>
+    </array>
+
+    <string-array name="data_movie_title">
+        <item>A Star Is Born</item>
+        <item>Aquaman</item>
+        <item>Avengers: Infinity War</item>
+        <item>Bird Box</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Bumblebee</item>
+        <item>Creed II</item>
+        <item>Once Upon a DeadPool</item>
+        <item>How To Train Your Dragon</item>
+        <item>Dragon Ball Super: Broly</item>
+        <item>Glass</item>
+        <item>Hunter Killer</item>
+        <item>Marry Popins Returns</item>
+
+        <item>The Rookie</item>
+        <item>Baki</item>
+        <item>Chilling Adventures of Sabrina</item>
+        <item>Station 19</item>
+        <item>Titans</item>
+        <item>The Resident</item>
+        <item>9-1-1</item>
+        <item>Final Space</item>
+        <item>Captain Tsubasa</item>
+        <item>Tom Clancy\'s Jack Ryan</item>
+    </string-array>
+
+    <string-array name="data_movie_year">
+        <item>3 Oktober 2018</item>
+        <item>7 Desember 2018</item>
+        <item>25 April 2018</item>
+        <item>13 Desember 2018</item>
+        <item>24 Oktober 2018</item>
+        <item>15 Desember 2018</item>
+        <item>21 November 2018</item>
+        <item>11 Desember 2018</item>
+        <item>3 Januari 2019</item>
+        <item>14 Desember 2018</item>
+        <item>16 Januari 2019</item>
+        <item>19 Oktober 2018</item>
+        <item>22 Desember 2018</item>
+
+        <item>12 Oktober 2018</item>
+        <item>16 Juni 2018</item>
+        <item>26 Oktober 2018</item>
+        <item>22 Maret 2018</item>
+        <item>12 Oktober 2018</item>
+        <item>21 Januari 2018</item>
+        <item>3 Januari 2018</item>
+        <item>26 Februari 2018</item>
+        <item>3 April 2018</item>
+        <item>30 Augustus 2018</item>
+    </string-array>
+
+    <string-array name="data_movie_rate">
+        <item>7.5/10</item>
+        <item>6.8/10</item>
+        <item>8.0/10</item>
+        <item>7.0/10</item>
+        <item>8.1/10</item>
+        <item>6.5/10</item>
+        <item>6.7/10</item>
+        <item>6.9/10</item>
+        <item>7.6/10</item>
+        <item>7.4/10</item>
+        <item>6.5/10</item>
+        <item>6.3/10</item>
+        <item>8.5/10</item>
+
+        <item>6.9/10</item>
+        <item>6.7/10</item>
+        <item>7.3/10</item>
+        <item>7.7/10</item>
+        <item>7.3/10</item>
+        <item>7.4/10</item>
+        <item>6.8/10</item>
+        <item>8.3/10</item>
+        <item>7.0/10</item>
+        <item>7.4/10</item>
+    </string-array>
+
+    <string-array name="data_movie_synopsis">
+        <item>Musisi kawakan, Jackson Maine, menemukan dan jatuh cinta pada artis yang sedang berjuang, Ally. Dia baru saja menyerah pada mimpinya untuk menjadi besar sebagai penyanyi sampai Jack membujuknya menjadi sorotan. Tetapi bahkan ketika karir Ally lepas landas, sisi pribadi dari hubungan mereka hancur, seperti Jack berjuang pertempuran yang sedang berlangsung dengan setan internalnya sendiri.</item>
+        <item>Dulunya merupakan rumah bagi peradaban paling maju di Bumi, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan dunia.Yang menghalangi jalannya adalah Arthur Curry, saudara setengah manusia, setengah saudara lelaki Atlantis dan pewaris sejati takhta.</item>
+        <item>Ketika Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih pasti</item>
+        <item>Lima tahun setelah kehadiran tak terlihat yang tak menyenangkan membuat sebagian besar masyarakat bunuh diri, seorang yang selamat dan dua anaknya melakukan upaya putus asa untuk mencapai keselamatan.</item>
+        <item>Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor dan gitaris bass John Deacon mengambil dunia musik dengan badai ketika mereka membentuk band rock Queen Rock pada tahun 1970. Lagu-lagu hit menjadi klasik instan. Ketika gaya hidup semakin liar Merkurius mulai lepas kendali, Queen segera menghadapi tantangan terbesarnya - menemukan cara untuk menjaga band bersama di tengah kesuksesan dan kelebihan.</item>
+        <item>Dalam pelarian pada tahun 1987, Bumblebee menemukan tempat perlindungan di tempat barang rongsokan di kota pantai kecil California. Charlie, di puncak usia 18 dan berusaha menemukan tempatnya di dunia, menemukan Bumblebee, bekas luka pertempuran dan patah. Ketika Charlie menghidupkannya, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa.</item>
+        <item>Antara kewajiban pribadi dan pelatihan untuk pertarungan besar berikutnya melawan lawan yang memiliki ikatan dengan masa lalu keluarganya, Adonis Creed menghadapi tantangan hidupnya.</item>
+        <item>Fred Savage yang diculik dipaksa untuk menanggung Deadpool 2 PG-13 rendition Deadpool 2 sebagai kisah Putri Pengantin yang penuh dengan keajaiban, keajaiban, dan nol F.</item>
+        <item>Ketika Hiccup memenuhi mimpinya untuk menciptakan utopia naga yang damai, penemuan Toothless dari pasangan yang tak teruji dan sukar ditangkap membuat Night Fury menjauh. Ketika bahaya meningkat di rumah dan pemerintahan Hiccup sebagai kepala desa diuji, baik naga dan pengendara harus membuat keputusan yang mustahil untuk menyelamatkan jenis mereka.</item>
+        <item>Bumi damai setelah Turnamen Kekuasaan. Menyadari bahwa alam semesta masih memiliki banyak orang yang lebih kuat untuk dilihat, Goku menghabiskan seluruh hari pelatihannya untuk mencapai ketinggian yang lebih besar. Lalu suatu hari, Goku dan Vegeta dihadapkan oleh seorang Saiyan yang disebut \'Broly\' yang belum pernah mereka lihat sebelumnya.</item>
+        <item>Dalam serangkaian pertemuan yang meningkat, mantan penjaga keamanan David Dunn menggunakan kemampuan supernaturalnya untuk melacak Kevin Wendell Crumb, seorang lelaki terganggu yang memiliki dua puluh empat kepribadian. Sementara itu, kehadiran bayangan Elia Price muncul sebagai seorang orkestra yang menyimpan rahasia penting bagi keduanya.</item>
+        <item>Kapten Glass dari USS Arkansas menemukan bahwa kudeta sedang terjadi di Rusia, jadi ia dan krunya bergabung dengan kelompok elit yang bekerja di lapangan untuk mencegah perang.</item>
+        <item>Puluhan tahun setelah kunjungan aslinya, pengasuh ajaib kembali untuk membantu saudara-saudara Bank dan anak-anak Michael melalui masa-masa sulit dalam hidup mereka.</item>
+        <item>Memulai dari awal bukanlah hal yang mudah, terutama bagi pria kota kecil John Nolan yang, setelah insiden yang mengubah hidup, mengejar mimpinya menjadi seorang perwira LAPD. Sebagai rookie tertua dari pasukan, ia bertemu dengan skeptis dari beberapa atasan yang melihatnya hanya sebagai krisis setengah baya berjalan.</item>
+        <item>Dia protagonis, Baki Hanma, melatih dengan fokus yang kuat untuk menjadi cukup kuat untuk melampaui ayahnya, Yujiro Hanma, pejuang terkuat di dunia. Lima dari terpidana mati paling kejam dan brutal di dunia berkumpul untuk menghadapi Baki. Tujuan mereka adalah untuk mengalahkan kekalahan kekuatan dan keterampilan mereka yang tak tertandingi telah membuat mereka bosan hidup, dan mereka sekarang mencari Baki dengan harapan bahwa ia dapat mengalahkan dan benar-benar menghancurkan mereka. Dalam krisis ini, prajurit seni bela diri bawah tanah lainnya berkumpul untuk bertarung di sisi Baki: Kaoru Hanayama, Gouki Shibukawa, Retsu Kaioh, dan Doppo Orochi. Pertikaian epik antara terpidana mati yang kejam dan Baki dan teman-temannya dimulai.</item>
+        <item>Ketika ulang tahunnya yang ke-16 semakin dekat, Sabrina harus memilih antara dunia penyihir dari keluarganya dan dunia manusia dari teman-temannya. Berdasarkan komik Archie.</item>
+        <item>Sekelompok petugas pemadam kebakaran yang gagah berani di Seattle Fire Station 19 dari kapten hingga rekrut terbaru mempertaruhkan nyawa dan hati mereka baik dalam tugas maupun dari waktu. Pria dan wanita pemberani ini seperti keluarga, secara harfiah dan kiasan, dan bersama-sama mereka membahayakan hidup mereka sendiri sebagai responden pertama yang menyelamatkan nyawa orang lain.</item>
+        <item>Sebuah tim pahlawan super muda yang dipimpin oleh Nightwing terbentuk untuk memerangi kejahatan dan bahaya lainnya.</item>
+        <item>Seorang residen senior yang tangguh dan pandai membimbing seorang dokter muda yang idealis melewati hari pertamanya, menarik kembali tirai tentang apa yang sebenarnya terjadi, baik dan buruk, dalam kedokteran modern.</item>
+        <item>Jelajahi pengalaman tekanan tinggi dari petugas polisi, paramedis, dan petugas pemadam kebakaran yang didorong ke dalam situasi yang paling menakutkan, mengejutkan, dan mengejutkan. Para responden darurat ini harus berusaha menyeimbangkan menyelamatkan mereka yang paling rentan dengan penyelesaian masalah dalam kehidupan mereka sendiri.</item>
+        <item>Seorang astronot bernama Gary dan sahabat karib Mooncake yang menghancurkan planetnya memulai perjalanan serial melalui ruang untuk membuka misteri "Ruang Akhir," titik terakhir di alam semesta, jika itu benar-benar ada.</item>
+        <item>Kisah penuh gairah dari seorang siswa sekolah dasar yang pikiran dan mimpinya berputar hampir seluruhnya di sekitar cinta sepak bola. Tsubasa Oozora yang berusia 11 tahun mulai bermain sepak bola pada usia yang sangat muda, dan sementara itu kebanyakan hanya olahraga rekreasi untuk teman-temannya, baginya, itu berkembang menjadi semacam obsesi. Untuk mengejar mimpinya dengan kemampuan sekolah dasar terbaiknya, Tsubasa pindah bersama ibunya ke kota Nankatsu, yang terkenal dengan tim sepak bola sekolah dasar yang sangat baik. Tetapi meskipun ia mudah menjadi yang terbaik di kota lamanya, Nankatsu memiliki banyak kompetisi, dan ia akan membutuhkan semua keterampilan dan bakatnya agar dapat menonjol dari kerumunan baru ini. Dia tidak hanya bertemu dengan saingannya, tetapi juga teman-teman baru seperti gadis cantik Sanae Nakazawa dan kiper berbakat, Genzo Wakabayashi, yang memiliki semangat yang sama dengan Tsubasa, dan akan terbukti sebagai teman yang berharga dalam membantunya mendorong impiannya. Mewakili Jepang di Piala Dunia FIFA adalah mimpi pamungkas Tsubasa, tetapi dibutuhkan lebih dari sekadar bakat untuk mencapainya.</item>
+        <item>Ketika analis CIA Jack Ryan menemukan serangkaian transfer bank yang mencurigakan, pencariannya atas jawaban menariknya dari keselamatan pekerjaan mejanya dan melontarkannya ke dalam permainan kucing dan tikus yang mematikan di seluruh Eropa dan Timur Tengah, dengan tokoh teroris yang sedang bersiap mempersiapkan untuk serangan besar-besaran terhadap AS dan sekutunya.</item>
+    </string-array>
+
+    <string-array name="data_movie_genre">
+        <item>DRAMA | PERCINTAAN | MUSIK</item>
+        <item>AKSI | PETUALANGAN | FANTASI</item>
+        <item>PETUALANGAN | AKSI | FANTASI</item>
+        <item>THRILLER | DRAMA</item>
+        <item>DRAMA | MUSIK</item>
+        <item>AKSI | PETUALANGAN | FIKSI ILMIAH</item>
+        <item>DRAMA</item>
+        <item>KOMEDI | AKSI</item>
+        <item>ANIMASI | KELUARGA | PETUALANGAN</item>
+        <item>AKSI | ANIMASI | FANTASI | PETUALANGAN | KOMEDI</item>
+        <item>THRILLER | MISTERI | DRAMA</item>
+        <item>AKSI | THRILLER</item>
+        <item>PETUALANGAN | FANTASI | KOMEDI</item>
+
+        <item>KRIMINAL | DRAMA</item>
+        <item>ANIMASI | AKIS PETUALANGAN | KRIMINAL </item>
+        <item>FIKSI ILMIAH | MISTERI | DRAMA</item>
+        <item>DRAMA</item>
+        <item>AKSI PETUALANGAN | FIKSI ILMIAH | DRAMA</item>
+        <item>DRAMA</item>
+        <item>DRAMA | AKSI PETUALANGAN | KRIMINAL</item>
+        <item>ANIMASI | AKSI PETUALANGAN</item>
+        <item>ANIMASI | KOMEDI | DRAMA</item>
+        <item>AKSI PETUALANGAN | DRAMA | PERANG POLITIK</item>
+    </string-array>
+
+    <string-array name="data_movie_duration">
+        <item>2j 15m</item>
+        <item>2j 24m</item>
+        <item>2j 29m</item>
+        <item>2j 4m</item>
+        <item>2j 15m</item>
+        <item>1j 54m</item>
+        <item>2j 10m</item>
+        <item>1j 57m</item>
+        <item>1j 44m</item>
+        <item>1j 41m</item>
+        <item>2j 9m</item>
+        <item>2j 2m</item>
+        <item>2j 10m</item>
+
+        <item>43m</item>
+        <item>24m</item>
+        <item>60m</item>
+        <item>45m</item>
+        <item>43m</item>
+        <item>42m</item>
+        <item>45m</item>
+        <item>22m</item>
+        <item>22m</item>
+        <item>60m</item>
+    </string-array>
+
+    <string-array name="data_is_favorite">
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+
+        <item>false</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+    </string-array>
+
+    <string-array name="data_movie_category">
+        <item>Movie</item>
+        <item>Movie</item>
+        <item>Movie</item>
+        <item>Movie</item>
+        <item>Movie</item>
+        <item>Movie</item>
+        <item>Movie</item>
+        <item>Movie</item>
+        <item>Movie</item>
+        <item>Movie</item>
+        <item>Movie</item>
+        <item>Movie</item>
+        <item>Movie</item>
+        <item>TV Show</item>
+        <item>TV Show</item>
+        <item>TV Show</item>
+        <item>TV Show</item>
+        <item>TV Show</item>
+        <item>TV Show</item>
+        <item>TV Show</item>
+        <item>TV Show</item>
+        <item>TV Show</item>
+        <item>TV Show</item>
+    </string-array>
+
+    <array name="data_cat_image">
+        <item>@drawable/ic_hd_movie</item>
+        <item>@drawable/ic_hd_movie</item>
+        <item>@drawable/ic_hd_movie</item>
+        <item>@drawable/ic_hd_movie</item>
+        <item>@drawable/ic_hd_movie</item>
+        <item>@drawable/ic_hd_movie</item>
+        <item>@drawable/ic_hd_movie</item>
+        <item>@drawable/ic_hd_movie</item>
+        <item>@drawable/ic_hd_movie</item>
+        <item>@drawable/ic_hd_movie</item>
+        <item>@drawable/ic_hd_movie</item>
+        <item>@drawable/ic_hd_movie</item>
+        <item>@drawable/ic_hd_movie</item>
+        <item>@drawable/ic_tv_series</item>
+        <item>@drawable/ic_tv_series</item>
+        <item>@drawable/ic_tv_series</item>
+        <item>@drawable/ic_tv_series</item>
+        <item>@drawable/ic_tv_series</item>
+        <item>@drawable/ic_tv_series</item>
+        <item>@drawable/ic_tv_series</item>
+        <item>@drawable/ic_tv_series</item>
+        <item>@drawable/ic_tv_series</item>
+        <item>@drawable/ic_tv_series</item>
+    </array>
+
+    <string name="menu_lang_setting">Pengaturan Bahasa</string>
+    <string name="img_backdrop_desc">Gambar Backdrop Film</string>
+    <string name="dsc_img_show_category">Gambar Kategori</string>
+    <string name="img_dsc_bg_movie">Gambar Latar belakang FIlm</string>
+
+
+</resources>

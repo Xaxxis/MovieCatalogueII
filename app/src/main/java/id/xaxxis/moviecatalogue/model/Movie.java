@@ -7,6 +7,7 @@ public class Movie implements Parcelable {
 
     private int photoBanner;
     private int photoCover;
+    private int imgCategory;
     private String title;
     private String dateRelease;
     private String rating;
@@ -14,7 +15,6 @@ public class Movie implements Parcelable {
     private String duration;
     private String synopsis;
     private String category;
-
 
     public int getPhotoBanner() {
         return photoBanner;
@@ -30,6 +30,14 @@ public class Movie implements Parcelable {
 
     public void setPhotoCover(int photoCover) {
         this.photoCover = photoCover;
+    }
+
+    public int getImgCategory() {
+        return imgCategory;
+    }
+
+    public void setImgCategory(int imgCategory) {
+        this.imgCategory = imgCategory;
     }
 
     public String getTitle() {
@@ -98,6 +106,7 @@ public class Movie implements Parcelable {
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeInt(this.photoBanner);
         dest.writeInt(this.photoCover);
+        dest.writeInt(this.imgCategory);
         dest.writeString(this.title);
         dest.writeString(this.dateRelease);
         dest.writeString(this.rating);
@@ -113,6 +122,7 @@ public class Movie implements Parcelable {
     protected Movie(Parcel in) {
         this.photoBanner = in.readInt();
         this.photoCover = in.readInt();
+        this.imgCategory = in.readInt();
         this.title = in.readString();
         this.dateRelease = in.readString();
         this.rating = in.readString();
@@ -122,7 +132,7 @@ public class Movie implements Parcelable {
         this.category = in.readString();
     }
 
-    public static final Parcelable.Creator<Movie> CREATOR = new Parcelable.Creator<Movie>() {
+    public static final Creator<Movie> CREATOR = new Creator<Movie>() {
         @Override
         public Movie createFromParcel(Parcel source) {
             return new Movie(source);

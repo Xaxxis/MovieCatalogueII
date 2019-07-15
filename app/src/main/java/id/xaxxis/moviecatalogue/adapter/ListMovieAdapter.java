@@ -1,6 +1,7 @@
 package id.xaxxis.moviecatalogue.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -10,11 +11,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.bumptech.glide.request.RequestOptions;
 
 import java.util.ArrayList;
 
 import id.xaxxis.moviecatalogue.R;
+import id.xaxxis.moviecatalogue.activity.DetailMovieActivity;
 import id.xaxxis.moviecatalogue.model.Movie;
 
 public class ListMovieAdapter extends RecyclerView.Adapter<ListMovieAdapter.MovieViewHolder> {
@@ -39,17 +42,27 @@ public class ListMovieAdapter extends RecyclerView.Adapter<ListMovieAdapter.Movi
 
     @Override
     public void onBindViewHolder(@NonNull ListMovieAdapter.MovieViewHolder movieViewHolder, int i) {
-        Movie movies = getMovieArrayList().get(i);
+        final Movie movies = getMovieArrayList().get(i);
         Glide.with(mContext)
                 .load(movies.getPhotoCover())
-                .apply(new RequestOptions())
+                .apply(new RequestOptions().transform(new RoundedCorners(3)))
                 .into(movieViewHolder.imgCover);
-
         movieViewHolder.tvTitle.setText(movies.getTitle());
         movieViewHolder.tvGenre.setText(movies.getGenre());
         movieViewHolder.tvRate.setText(movies.getRating());
         movieViewHolder.tvSimpleDesc.setText(movies.getSynopsis());
+        movieViewHolder.tvRelease.setText(movies.getDateRelease());
+
+        movieViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent movieDetail = new Intent(mContext, DetailMovieActivity.class);
+                movieDetail.putExtra("movie", movies);
+                view.getContext().startActivity(movieDetail);
+            }
+        });
     }
+
 
     @Override
     public int getItemCount() {
@@ -57,7 +70,7 @@ public class ListMovieAdapter extends RecyclerView.Adapter<ListMovieAdapter.Movi
     }
 
     public class MovieViewHolder extends RecyclerView.ViewHolder {
-        TextView tvTitle, tvGenre, tvRate, tvSimpleDesc;
+        TextView tvTitle, tvGenre, tvRate, tvSimpleDesc, tvRelease;
         ImageView imgCover;
         public MovieViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -66,6 +79,7 @@ public class ListMovieAdapter extends RecyclerView.Adapter<ListMovieAdapter.Movi
             tvGenre = itemView.findViewById(R.id.tv_genre);
             tvRate = itemView.findViewById(R.id.tv_rating);
             tvSimpleDesc = itemView.findViewById(R.id.tv_simple_desc);
+            tvRelease = itemView.findViewById(R.id.tv_release);
         }
     }
 }

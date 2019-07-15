@@ -27,12 +27,21 @@ public class SectionPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int i) {
+        ArrayList<Movie> listMovie = new ArrayList<>();
+        ArrayList<Movie> listTvShow = new ArrayList<>();
+        for(Movie m : movies){
+            if(m.getCategory().equals("TV Show")){
+                listTvShow.add(m);
+            }else {
+                listMovie.add(m);
+            }
+        }
         MovieFragment movieFragment = new MovieFragment();
         switch (i){
             case 0:
-                return movieFragment.newInstance(movies);
+                return movieFragment.newInstance(listMovie);
             case 1:
-                return movieFragment.newInstance(movies);
+                return movieFragment.newInstance(listTvShow);
         }
         return null;
     }
