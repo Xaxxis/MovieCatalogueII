@@ -222,31 +222,6 @@
         <item>60m</item>
     </string-array>
 
-    <string-array name="data_is_favorite">
-        <item>true</item>
-        <item>false</item>
-        <item>true</item>
-        <item>false</item>
-        <item>false</item>
-        <item>true</item>
-        <item>true</item>
-        <item>false</item>
-        <item>false</item>
-        <item>false</item>
-        <item>true</item>
-        <item>true</item>
-        <item>false</item>
-        <item>false</item>
-        <item>false</item>
-        <item>true</item>
-        <item>false</item>
-        <item>true</item>
-        <item>false</item>
-        <item>true</item>
-        <item>false</item>
-        <item>true</item>
-        <item>false</item>
-    </string-array>
 
     <string-array name="data_movie_category">
         <item>Movie</item>
